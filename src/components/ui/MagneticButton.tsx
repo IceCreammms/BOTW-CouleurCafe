@@ -10,7 +10,7 @@ export default function MagneticButton({ playing, onClick }: MagneticButtonProps
   const magnetic = useRef<HTMLButtonElement>(null)
   const filler   = useRef<HTMLSpanElement>(null)
   const barRefs  = [useRef<SVGRectElement>(null), useRef<SVGRectElement>(null), useRef<SVGRectElement>(null)]
-  const vizTimeline = useRef<gsap.core.Timeline>()
+  const vizTimeline = useRef<gsap.core.Timeline | null>(null)
 
   useEffect(() => {
     if (!magnetic.current) return
@@ -100,7 +100,9 @@ export default function MagneticButton({ playing, onClick }: MagneticButtonProps
         }
       })
     }
-    return () => vizTimeline.current?.kill()
+    return () => {
+      vizTimeline.current?.kill();
+    }
   }, [playing])
 
   const DotsIcon = (

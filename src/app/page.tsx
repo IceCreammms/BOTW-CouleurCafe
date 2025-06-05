@@ -10,7 +10,6 @@ import { ScrollDrivenBoxes } from "@/components/three/ScrollDrivenBoxes";
 import { Loader } from "@/components/Elements/Loader";
 import { Suspense } from "react";
 import MagneticButton from "@/components/ui/MagneticButton";
-import { ShaderImagesSceneWithLenis } from "@/components/three/ShaderImagesWithLenis";
 import {
   Tabs,
   TabsContent,
@@ -198,7 +197,6 @@ export default function Home() {
         </section>
 
         <section className="section min-h-screen relative flex items-stretch justify-stretch px-8">
-          {/*<ShaderImagesSceneWithLenis showDebug={true} />*/}
           <div className="absolute top-45 left-12 max-w-[40rem]">
             <h2 className="text-5xl font-normal font-inter mb-2">
               A haven in the{" "}
@@ -357,10 +355,10 @@ export default function Home() {
                     </span>
 
                   </div>
-                  {merch[activeMerchTab].discountedPrice ? (
+                  {"discountedPrice" in merch[activeMerchTab] && merch[activeMerchTab].discountedPrice ? (
                     <div className="flex gap-4 items-center">
-                      <span className="text-2xl font-inter font-medium">$ {merch[activeMerchTab].price} USD</span>
-                      <span className="text-xs font-inter font-normal line-through">$ {merch[activeMerchTab].discountedPrice} USD</span>
+                      <span className="text-2xl font-inter font-medium">{`$${merch[activeMerchTab].discountedPrice} USD`}</span>
+                      <span className="text-xs font-inter font-normal line-through">$ {merch[activeMerchTab].price} USD</span>
                     </div>
                   ) : (
                     <div className="flex gap-4 items-center">
