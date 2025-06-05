@@ -4,6 +4,8 @@ import "@/styles/globals.css";
 import { siteConfig } from "@/config/site.config";
 import { cn } from "@/lib/utils";
 import RootProviders from "@/components/providers";
+import {Logo} from "@/components/ui/logo";
+
 
 const fontSans = Geist({
   variable: "--font-geist-sans",
@@ -18,6 +20,7 @@ const fontMono = Geist_Mono({
 const fontHeading = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  weight: ["100","400", "500", "600", "700", "800"],
 });
 
 const fontPlex = IBM_Plex_Mono({
@@ -90,6 +93,9 @@ export default function RootLayout({
           fontPlayfair.variable,
         )}
       >
+      <div className="fixed top-6 left-6 z-[100] pointer-events-none select-none">
+        <Logo />
+      </div>
         <RootProviders>
           {children}
         </RootProviders>

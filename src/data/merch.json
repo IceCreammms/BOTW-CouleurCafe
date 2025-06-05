@@ -1,0 +1,65 @@
+{
+  "caps": {
+    "name": "Couleur Cafe -special-Softbrown cap",
+    "price": "99.00",
+    "discountedPrice": "79.00",
+    "review": {
+      "rating": 4.5,
+      "count": 3504
+    },
+    "details": [
+      "Material type : Cotton",
+      "Outer material : Cotton",
+      "Occasion type : Casual",
+      "Style : Baseball"
+    ],
+    "images": ["image 7.png", "image 11.png", "image 13.png", "image 14.png"]
+  },
+  "mugs": {
+    "name": "Couleur Cafe Glazed Mug",
+    "price": "14.99",
+    "discountedPrice": "12.49",
+    "review": {
+      "rating": 4.2,
+      "count": 1820
+    },
+    "details": [
+      "Material : Ceramic",
+      "Volume : 350ml",
+      "Microwave safe",
+      "Hand wash recommended"
+    ],
+    "images": ["mug1.png", "mug2.png", "mug3.png", "mug4.png"]
+  },
+  "bottles": {
+    "name": "Couleur Cafe Insulated Bottle",
+    "price": "29.99",
+    "review": {
+      "rating": 4.7,
+      "count": 2150
+    },
+    "details": [
+      "Material : Stainless Steel",
+      "Capacity : 500ml",
+      "Double-walled insulated",
+      "BPA-free"
+    ],
+    "images": ["bottle1.png", "bottle2.png", "bottle3.png", "bottle4.png"]
+  },
+  "shirt": {
+    "name": "Couleur Cafe Logo Tee",
+    "price": "25.00",
+    "discountedPrice": "19.99",
+    "review": {
+      "rating": 4.3,
+      "count": 1582
+    },
+    "details": [
+      "Material : 100% Cotton",
+      "Fit : Unisex",
+      "Pre-shrunk",
+      "Machine wash cold"
+    ],
+    "images": ["shirt1.png", "shirt2.png", "shirt3.png", "shirt4.png"]
+  }
+}

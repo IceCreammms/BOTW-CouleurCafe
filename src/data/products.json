@@ -1,0 +1,19 @@
+{
+  "drinks": [
+    { "id": "drink1",    "name": "Drink 1",            "price": 4.5, "image": "_DSC2962.png" },
+    { "id": "drink2",    "name": "Drink 2",            "price": 3.5, "image": "_DSC2968.png" },
+    { "id": "drink3",    "name": "Drink 3",            "price": 5.0, "image": "_DSC2975.png" },
+    { "id": "drink4",    "name": "Drink 4",            "price": 4.0, "image": "_DSC2978.png" },
+    { "id": "drink5",    "name": "Drink 5",            "price": 6.0, "image": "_DSC3072.png" },
+    { "id": "drink6",    "name": "Drink 6",            "price": 5.0, "image": "_DSC3073.png" },
+    { "id": "drink7",    "name": "Drink 7",            "price": 4.0, "image": "_DSC3074.png" }
+
+  ],
+  "cookies": [
+    { "id": "dessert1", "name": "Dessert 1",  "price": 2.5, "image": "_DSC2805.png" },
+    { "id": "dessert2", "name": "Dessert 2",  "price": 3.0, "image": "_DSC2994.png" },
+    { "id": "dessert3", "name": "Dessert 3",  "price": 2.0, "image": "_DSC3022.png" },
+    { "id": "dessert4", "name": "Dessert 4",  "price": 3.5, "image": "_DSC3036.png" },
+    { "id": "dessert5", "name": "Dessert 5",  "price": 4.0, "image": "_DSC3041.png" }
+  ]
+}
